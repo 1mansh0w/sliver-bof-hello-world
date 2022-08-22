@@ -1,0 +1,18 @@
+{
+    "name": "say-hello",
+    "version": "0.0.1",
+    "command_name": "say-hello",
+    "extension_author": "1mansh0w",
+    "original_author": "1mansh0w",
+    "repo_url": "",
+    "help": "This is a simple hello-world bof",
+    "depends_on": "coff-loader",
+    "entrypoint": "go",
+    "files": [
+        {
+            "os": "windows",
+            "arch": "amd64",
+            "path": "say_hello.x64.o"
+        }
+    ]
+}
